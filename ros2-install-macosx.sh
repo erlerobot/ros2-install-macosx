@@ -35,15 +35,7 @@ brew install homebrew/science/opencv --without-python
 brew install python3 wget cmake cppcheck opensplice gtest
 pip3 install empy setuptools nose vcstool
 
-#Unpack the latest package for OS X
-mkdir -p ~/ros2_install
-cd ~/ros2_install
-
-#The name of the package may change in the future
-tar xf ~/Downloads/ros2-rc2-package-osx.tar.bz2
-
 #Create a workspace and clone repos
-
 read -p "Please type a name for the workspace:  " nom
 echo $nom
 mkdir -p ~/$nom/src
@@ -56,4 +48,4 @@ echo "......\"$nom\" workspace created....."
 src/ament/ament_tools/scripts/ament.py build --build-tests --symlink-install
 
 #Source
-. ~/ros2_install/ros2-osx/setup.bash
+. install/local_setup.bash
