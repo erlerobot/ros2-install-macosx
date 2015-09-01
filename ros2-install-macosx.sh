@@ -40,11 +40,5 @@ cd ~/ros2_install
 #The name of the package may change in the future
 tar xf ~/Downloads/ros2-rc2-package-osx.tar.bz2
 
-#Create a workspace and clone repos
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws
-wget https://raw.githubusercontent.com/ros2/ros2/release-alpha1/ros2.repos
-vcs import ~/ros2_ws/src < ros2.repos
-
-#Build ROS2 code
-src/ament/ament_tools/scripts/ament.py build --build-tests --symlink-install
+#Source
+. ~/ros2_install/ros2-osx/setup.bash
