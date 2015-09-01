@@ -3,7 +3,7 @@
 #About ROS2
 Version 2.0 of the Robot Operating System (ROS)
 
-Follow https://github.com/ros2/ros2/wiki/OSX-Install-Binary for more info.
+Follow https://github.com/ros2/ros2/wiki/OSX-Install-Binary and https://github.com/ros2/ros2/wiki/OSX-Development-Setup for more info.
 
 #Prerequisites
 You need Java Development Kit (JDK) installed before installing ROS 2. For that follow these steps:
