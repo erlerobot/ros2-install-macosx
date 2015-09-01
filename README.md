@@ -10,6 +10,8 @@ You need Java Development Kit (JDK) installed before installing ROS 2. Check out
 
 `find /Library/Java | grep jni.h`
 
+`java -version`
+
 If it is not like that, follow these steps:
 
 · Go to: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
