@@ -17,8 +17,8 @@ You also need to download the latest package for OS X. Download it from the rele
 #Compilation
 Once that you have JDK installed and the ROS latest package for OS X downloaded please enter this command line `./ros2-install-macosx`.
 
-Remember to source the setup file before running any example
-`. ~/ros2_install/ros2-osx/setup.bash`
+Remember to source the setup file whenever you run any example
+`. install/local_setup.bash`
 
 Try out some examples!
 
